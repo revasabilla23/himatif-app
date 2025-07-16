@@ -1,0 +1,525 @@
+Invalid payload received.
+Invalid payload received.
+Payload kosong diterima.
+Payload kosong diterima.
+Payload diterima: {
+    "transaction_time": "2023-11-15 18:45:13",
+    "transaction_status": "settlement",
+    "transaction_id": "513f1f01-c9da-474c-9fc9-d5c64364b709",
+    "status_message": "midtrans payment notification",
+    "status_code": "200",
+    "signature_key": "6822ea59cbe49a1ffa7950570437aa3c3ae6ab5e5a34309e79c74349dd47799efc3731452f8bf82d2e511cadfb53fadef5e5310b51a942e982b8049e8fc75a10",
+    "settlement_time": "2023-11-15 22:45:13",
+    "payment_type": "gopay",
+    "order_id": "payment_notif_test_G150873863_7a900144-efe3-4e69-b3cb-e66eb82a4dc2",
+    "merchant_id": "G150873863",
+    "gross_amount": "105000.00",
+    "fraud_status": "accept",
+    "currency": "IDR"
+}
+Status transaksi diperbarui menjadi: berhasil untuk ID: payment_notif_test_G150873863_7a900144-efe3-4e69-b3cb-e66eb82a4dc2
+Payload diterima: {
+    "transaction_type": "off-us",
+    "transaction_time": "2024-12-27 15:56:38",
+    "transaction_status": "pending",
+    "transaction_id": "46bb9918-231d-4e46-b193-9f88c6a71a27",
+    "status_message": "midtrans payment notification",
+    "status_code": "201",
+    "signature_key": "ecc53f8cc27d7a2e0999e0cea02043c9ab4a95c5a09f9071e025a772a209979f75ca9c5856d424348cdd3e566f5edc9f8fb23af908d89ff5a01cfa686b7cdd67",
+    "payment_type": "qris",
+    "order_id": "63",
+    "merchant_id": "G150873863",
+    "gross_amount": "50000.00",
+    "fraud_status": "accept",
+    "expiry_time": "2024-12-27 16:11:38",
+    "currency": "IDR"
+}
+Status transaksi diperbarui menjadi: pending untuk ID: 63
+Payload diterima: {
+    "transaction_type": "on-us",
+    "transaction_time": "2024-12-27 15:56:38",
+    "transaction_status": "settlement",
+    "transaction_id": "46bb9918-231d-4e46-b193-9f88c6a71a27",
+    "status_message": "midtrans payment notification",
+    "status_code": "200",
+    "signature_key": "50f5bfcb9888d16363ccae4f4108bf3fad20ae3c4508270843d84e26fcc5f385a201259c05932ef19485599b7cc779de5d2e5ed0fd9152e5e064f23d2835a2a3",
+    "settlement_time": "2024-12-27 15:56:59",
+    "payment_type": "qris",
+    "order_id": "63",
+    "merchant_id": "G150873863",
+    "issuer": "gopay",
+    "gross_amount": "50000.00",
+    "fraud_status": "accept",
+    "expiry_time": "2024-12-27 16:11:38",
+    "currency": "IDR",
+    "acquirer": "gopay"
+}
+Status transaksi diperbarui menjadi: berhasil untuk ID: 63
+Payload diterima: {
+    "transaction_type": "off-us",
+    "transaction_time": "2024-12-27 16:02:02",
+    "transaction_status": "pending",
+    "transaction_id": "64905b50-8620-4ae6-8f42-af68ebab312f",
+    "status_message": "midtrans payment notification",
+    "status_code": "201",
+    "signature_key": "93198573d7c7b487fc32f8f1974245073f7f7056183992ed337297752f2d7acb20e155b1d2ba6fa316eaafa05d29ef021cbe56308e7b47638f14d897f70cb45e",
+    "payment_type": "qris",
+    "order_id": "64",
+    "merchant_id": "G150873863",
+    "gross_amount": "10000.00",
+    "fraud_status": "accept",
+    "expiry_time": "2024-12-27 16:17:02",
+    "currency": "IDR"
+}
+Status transaksi diperbarui menjadi: pending untuk ID: 64
+Payload diterima: {
+    "transaction_type": "on-us",
+    "transaction_time": "2024-12-27 16:02:02",
+    "transaction_status": "settlement",
+    "transaction_id": "64905b50-8620-4ae6-8f42-af68ebab312f",
+    "status_message": "midtrans payment notification",
+    "status_code": "200",
+    "signature_key": "8b9a0e7a230428919d5501025b21addcc84d30754e41fcac05d6edd51f74860c1e95e0d0568c43e33b7ecd57a466ed973d61750c9571deff0f706419dbd20438",
+    "settlement_time": "2024-12-27 16:02:19",
+    "payment_type": "qris",
+    "order_id": "64",
+    "merchant_id": "G150873863",
+    "issuer": "gopay",
+    "gross_amount": "10000.00",
+    "fraud_status": "accept",
+    "expiry_time": "2024-12-27 16:17:02",
+    "currency": "IDR",
+    "acquirer": "gopay"
+}
+Status transaksi diperbarui menjadi: berhasil untuk ID: 64
+Payload diterima: {
+    "transaction_type": "off-us",
+    "transaction_time": "2024-12-27 16:30:37",
+    "transaction_status": "pending",
+    "transaction_id": "6449cc13-d473-4593-bbce-0b2947e3438f",
+    "status_message": "midtrans payment notification",
+    "status_code": "201",
+    "signature_key": "1ba7ad67f054841665993ff064db095e648d3f6b301ffb6a63d1f9c82a03c14ccdc837d848ef62ce4cfd2b95af353068ff9bd1fdc931e8d7f15434cf33414e93",
+    "payment_type": "qris",
+    "order_id": "67",
+    "merchant_id": "G150873863",
+    "gross_amount": "100000.00",
+    "fraud_status": "accept",
+    "expiry_time": "2024-12-27 16:45:37",
+    "currency": "IDR"
+}
+Status transaksi diperbarui menjadi: pending untuk ID: 67
+Payload diterima: {
+    "transaction_type": "on-us",
+    "transaction_time": "2024-12-27 16:30:37",
+    "transaction_status": "settlement",
+    "transaction_id": "6449cc13-d473-4593-bbce-0b2947e3438f",
+    "status_message": "midtrans payment notification",
+    "status_code": "200",
+    "signature_key": "d2520db26f2eedcabb702a0b72b8674b046c8bfcfe4fe0690cf1fab069dc641a2118dbc9d95d7b4ddf37bd93185e3522021ca02d1447f10b6fc98cc1961ef0b4",
+    "settlement_time": "2024-12-27 16:30:55",
+    "payment_type": "qris",
+    "order_id": "67",
+    "merchant_id": "G150873863",
+    "issuer": "gopay",
+    "gross_amount": "100000.00",
+    "fraud_status": "accept",
+    "expiry_time": "2024-12-27 16:45:37",
+    "currency": "IDR",
+    "acquirer": "gopay"
+}
+Status transaksi diperbarui menjadi: berhasil untuk ID: 67
+Payload diterima: {
+    "transaction_type": "off-us",
+    "transaction_time": "2024-12-27 16:32:21",
+    "transaction_status": "pending",
+    "transaction_id": "4bfd0d3a-8e14-4766-978b-2d3a9175387c",
+    "status_message": "midtrans payment notification",
+    "status_code": "201",
+    "signature_key": "f8a6463a4d94664e7cc043c9805ce519e36c965d636a3c9e33370761161c6c1fee2e04d54d4ceb40f36ff49d74e313ec860f414b517b3697e9c09af859c3d0c0",
+    "payment_type": "qris",
+    "order_id": "68",
+    "merchant_id": "G150873863",
+    "gross_amount": "200000.00",
+    "fraud_status": "accept",
+    "expiry_time": "2024-12-27 16:47:21",
+    "currency": "IDR"
+}
+Status transaksi diperbarui menjadi: pending untuk ID: 68
+Payload diterima: {
+    "transaction_type": "on-us",
+    "transaction_time": "2024-12-27 16:32:21",
+    "transaction_status": "settlement",
+    "transaction_id": "4bfd0d3a-8e14-4766-978b-2d3a9175387c",
+    "status_message": "midtrans payment notification",
+    "status_code": "200",
+    "signature_key": "fe041c9c685ec7ddf70768e55228a8b239456f67979016aba2f7bed2d215035704d5a4bb07c0cef3013e30e04c98d685f2d667c83a451e3f5b7b41a0753e9af4",
+    "settlement_time": "2024-12-27 16:32:34",
+    "payment_type": "qris",
+    "order_id": "68",
+    "merchant_id": "G150873863",
+    "issuer": "gopay",
+    "gross_amount": "200000.00",
+    "fraud_status": "accept",
+    "expiry_time": "2024-12-27 16:47:21",
+    "currency": "IDR",
+    "acquirer": "gopay"
+}
+Status transaksi diperbarui menjadi: berhasil untuk ID: 68
+Payload diterima: {
+    "transaction_time": "2023-11-15 18:45:13",
+    "transaction_status": "settlement",
+    "transaction_id": "513f1f01-c9da-474c-9fc9-d5c64364b709",
+    "status_message": "midtrans payment notification",
+    "status_code": "200",
+    "signature_key": "2bbb184cab25fdd2966a78928d5b28a32369192ed582aa00f219c85ae674cdfb53890571ecb339afd57594e1ab508db66632e7cc1623e834e018f301d99f4c73",
+    "settlement_time": "2023-11-15 22:45:13",
+    "payment_type": "gopay",
+    "order_id": "payment_notif_test_G150873863_f4572e9e-d49e-4f16-ab1b-60edd2275519",
+    "merchant_id": "G150873863",
+    "gross_amount": "105000.00",
+    "fraud_status": "accept",
+    "currency": "IDR"
+}
+Status transaksi diperbarui menjadi: berhasil untuk ID: payment_notif_test_G150873863_f4572e9e-d49e-4f16-ab1b-60edd2275519
+Payload diterima: {
+    "transaction_type": "off-us",
+    "transaction_time": "2024-12-28 13:44:06",
+    "transaction_status": "pending",
+    "transaction_id": "ec0c9066-edbc-4a4f-918e-b4e9da5e9a27",
+    "status_message": "midtrans payment notification",
+    "status_code": "201",
+    "signature_key": "d17a5f9c69095c97cc421bd3762cad4127efb49314bf4716a4745e828150888ba347e4186a569e643a849e89b0c48233cfd5fa3f683c7a3da8b3215e0b590d87",
+    "payment_type": "qris",
+    "order_id": "71",
+    "merchant_id": "G150873863",
+    "gross_amount": "50000.00",
+    "fraud_status": "accept",
+    "expiry_time": "2024-12-28 13:59:06",
+    "currency": "IDR"
+}
+Status transaksi diperbarui menjadi: pending untuk ID: 71
+Payload diterima: {
+    "transaction_type": "on-us",
+    "transaction_time": "2024-12-28 13:44:06",
+    "transaction_status": "settlement",
+    "transaction_id": "ec0c9066-edbc-4a4f-918e-b4e9da5e9a27",
+    "status_message": "midtrans payment notification",
+    "status_code": "200",
+    "signature_key": "f0b6c568aa34db5f7d79668bd31641af8210b389486595eb11a0c54ed18a0b122323e3bc9e20e51e813748959d08ffa2a966110b112872970cef7679da64a67d",
+    "settlement_time": "2024-12-28 13:44:28",
+    "payment_type": "qris",
+    "order_id": "71",
+    "merchant_id": "G150873863",
+    "issuer": "gopay",
+    "gross_amount": "50000.00",
+    "fraud_status": "accept",
+    "expiry_time": "2024-12-28 13:59:06",
+    "currency": "IDR",
+    "acquirer": "gopay"
+}
+Status transaksi diperbarui menjadi: berhasil untuk ID: 71
+Payload kosong diterima.
+Payload diterima: {
+    "transaction_time": "2023-11-15 18:45:13",
+    "transaction_status": "settlement",
+    "transaction_id": "513f1f01-c9da-474c-9fc9-d5c64364b709",
+    "status_message": "midtrans payment notification",
+    "status_code": "200",
+    "signature_key": "bdc1d52a0206dff9b81163fbad0597040a2a970f7867a054919583c45fc240151d398b1781f22c35dbd000993e47a2fb1c7ae199d3abf69b01b8cd5b50ab391a",
+    "settlement_time": "2023-11-15 22:45:13",
+    "payment_type": "gopay",
+    "order_id": "payment_notif_test_G150873863_f31cbbe9-c644-42d7-b9df-ff745b603da2",
+    "merchant_id": "G150873863",
+    "gross_amount": "105000.00",
+    "fraud_status": "accept",
+    "currency": "IDR"
+}
+Status transaksi diperbarui menjadi: berhasil untuk ID: payment_notif_test_G150873863_f31cbbe9-c644-42d7-b9df-ff745b603da2
+Payload diterima: {
+    "transaction_type": "off-us",
+    "transaction_time": "2024-12-28 20:28:06",
+    "transaction_status": "pending",
+    "transaction_id": "078f3017-11c3-404b-b1b0-ed53867a8f37",
+    "status_message": "midtrans payment notification",
+    "status_code": "201",
+    "signature_key": "dd56a4a74c8591b24aaacee8acfd92a25f42923ca4208fbb3ecce35a4cad75694f05021aedeade62e7aaf8c277154001688bacd9f8bafdfe6a2fc7d4da5ebb59",
+    "payment_type": "qris",
+    "order_id": "76",
+    "merchant_id": "G150873863",
+    "gross_amount": "50000.00",
+    "fraud_status": "accept",
+    "expiry_time": "2024-12-28 20:43:06",
+    "currency": "IDR"
+}
+Status transaksi diperbarui menjadi: pending untuk ID: 76
+Payload diterima: {
+    "transaction_type": "on-us",
+    "transaction_time": "2024-12-28 20:28:06",
+    "transaction_status": "settlement",
+    "transaction_id": "078f3017-11c3-404b-b1b0-ed53867a8f37",
+    "status_message": "midtrans payment notification",
+    "status_code": "200",
+    "signature_key": "2139df5070d73ff5c8ba82a1f44260ec7ea8d6b50837b6299fa3b9f1d1c510285ef54dd1ca9f1dc7cfe02fff10f5ff113c7b23b59f1a6993995c154764d3343f",
+    "settlement_time": "2024-12-28 20:28:27",
+    "payment_type": "qris",
+    "order_id": "76",
+    "merchant_id": "G150873863",
+    "issuer": "gopay",
+    "gross_amount": "50000.00",
+    "fraud_status": "accept",
+    "expiry_time": "2024-12-28 20:43:06",
+    "currency": "IDR",
+    "acquirer": "gopay"
+}
+Status transaksi diperbarui menjadi: berhasil untuk ID: 76
+Payload diterima: {
+    "transaction_type": "off-us",
+    "transaction_time": "2024-12-28 20:13:57",
+    "transaction_status": "expire",
+    "transaction_id": "ebfa0d7b-e088-49bf-adb2-02ccc7c663d6",
+    "status_message": "midtrans payment notification",
+    "status_code": "202",
+    "signature_key": "e34ae9a6ebaf2ca2a38159e335a41251b085bcd257380adcd9f497b3a716854bf6df7390419c37a13eb9e8aa1636242441f62c99d4a730983088c397f900688b",
+    "payment_type": "qris",
+    "order_id": "75",
+    "merchant_id": "G150873863",
+    "gross_amount": "100000.00",
+    "fraud_status": "accept",
+    "expiry_time": "2024-12-28 20:28:57",
+    "currency": "IDR"
+}
+Status transaksi diperbarui menjadi: gagal untuk ID: 75
+Payload diterima: {
+    "transaction_type": "off-us",
+    "transaction_time": "2024-12-28 20:43:36",
+    "transaction_status": "pending",
+    "transaction_id": "30c400f8-7ed4-4efc-821e-bbb9ced532cd",
+    "status_message": "midtrans payment notification",
+    "status_code": "201",
+    "signature_key": "bd1e94921f272148a4939ded71bf12d0464414a7a603279721e05a85e9fb509698d807060690a9acc94837329b183b80036446a8575e1bf230388913ebd6ef50",
+    "payment_type": "qris",
+    "order_id": "79",
+    "merchant_id": "G150873863",
+    "gross_amount": "50000.00",
+    "fraud_status": "accept",
+    "expiry_time": "2024-12-28 20:58:36",
+    "currency": "IDR"
+}
+Status transaksi diperbarui menjadi: pending untuk ID: 79
+Payload diterima: {
+    "transaction_type": "on-us",
+    "transaction_time": "2024-12-28 20:43:36",
+    "transaction_status": "settlement",
+    "transaction_id": "30c400f8-7ed4-4efc-821e-bbb9ced532cd",
+    "status_message": "midtrans payment notification",
+    "status_code": "200",
+    "signature_key": "7d7b48e5e1edcffdc1d89ce17c1ddea66ff7b3a608acd843350c2ea2de157b562cd4f89c449fe187135bca5720569407b1e808395c6c73755fbff78c5fdaebda",
+    "settlement_time": "2024-12-28 20:44:00",
+    "payment_type": "qris",
+    "order_id": "79",
+    "merchant_id": "G150873863",
+    "issuer": "gopay",
+    "gross_amount": "50000.00",
+    "fraud_status": "accept",
+    "expiry_time": "2024-12-28 20:58:36",
+    "currency": "IDR",
+    "acquirer": "gopay"
+}
+Status transaksi diperbarui menjadi: berhasil untuk ID: 79
+Payload diterima: {
+    "transaction_time": "2023-11-15 18:45:13",
+    "transaction_status": "settlement",
+    "transaction_id": "513f1f01-c9da-474c-9fc9-d5c64364b709",
+    "status_message": "midtrans payment notification",
+    "status_code": "200",
+    "signature_key": "fb6eeec535acfefa7eef9b0c6f12a40680fa148b33e5fb33e80f763a80e2ce58d2c992bda6d4fd7fa779dd22ecf96a2ef453249322c07c3a91329e7743f99188",
+    "settlement_time": "2023-11-15 22:45:13",
+    "payment_type": "gopay",
+    "order_id": "payment_notif_test_G632938346_930d055d-37ec-474f-a75e-f19da926d426",
+    "merchant_id": "G632938346",
+    "gross_amount": "105000.00",
+    "fraud_status": "accept",
+    "currency": "IDR"
+}
+Status transaksi diperbarui menjadi: berhasil untuk ID: payment_notif_test_G632938346_930d055d-37ec-474f-a75e-f19da926d426
+Payload diterima: {
+    "transaction_type": "off-us",
+    "transaction_time": "2025-01-06 22:53:26",
+    "transaction_status": "pending",
+    "transaction_id": "712f0e4c-b54e-4383-b2ec-1f0d012aa1a2",
+    "status_message": "midtrans payment notification",
+    "status_code": "201",
+    "signature_key": "c3aecb3ce10450804106b3179e7bc8ffec7ae5a5746844981d8655581b46772ef3f5f282bcfbd543c7c429b41b1966ea3813c973356de6b7b82e6688d5e5d3bb",
+    "payment_type": "qris",
+    "order_id": "39",
+    "merchant_id": "G632938346",
+    "gross_amount": "10000.00",
+    "fraud_status": "accept",
+    "expiry_time": "2025-01-06 23:08:26",
+    "currency": "IDR"
+}
+Status transaksi diperbarui menjadi: pending untuk ID: 39
+Payload diterima: {
+    "transaction_type": "on-us",
+    "transaction_time": "2025-01-06 22:53:26",
+    "transaction_status": "settlement",
+    "transaction_id": "712f0e4c-b54e-4383-b2ec-1f0d012aa1a2",
+    "status_message": "midtrans payment notification",
+    "status_code": "200",
+    "signature_key": "f147749128d0d3adc6915eda58877c821ad80d47fff4e61d538df909be71ba6618782f6e20940f8cb1f7c1d32120b0db348c4a970da7138033e83c2238c42aae",
+    "settlement_time": "2025-01-06 22:53:46",
+    "payment_type": "qris",
+    "order_id": "39",
+    "merchant_id": "G632938346",
+    "issuer": "gopay",
+    "gross_amount": "10000.00",
+    "fraud_status": "accept",
+    "expiry_time": "2025-01-06 23:08:26",
+    "currency": "IDR",
+    "acquirer": "gopay"
+}
+Status transaksi diperbarui menjadi: berhasil untuk ID: 39
+Payload diterima: {
+    "transaction_time": "2023-11-15 18:45:13",
+    "transaction_status": "settlement",
+    "transaction_id": "513f1f01-c9da-474c-9fc9-d5c64364b709",
+    "status_message": "midtrans payment notification",
+    "status_code": "200",
+    "signature_key": "9fe647561ad236632a2ece4318d11b494a9a89e199bb5104a01dbd19d581fc36d9c11d958f420329d5b0149877a1ca5eceb85f3629b9412db7b48529d4944d95",
+    "settlement_time": "2023-11-15 22:45:13",
+    "payment_type": "gopay",
+    "order_id": "payment_notif_test_G632938346_9590c4c8-d3ed-4309-b598-7c47152f426a",
+    "merchant_id": "G632938346",
+    "gross_amount": "105000.00",
+    "fraud_status": "accept",
+    "currency": "IDR"
+}
+Status transaksi diperbarui menjadi: berhasil untuk ID: payment_notif_test_G632938346_9590c4c8-d3ed-4309-b598-7c47152f426a
+Payload diterima: {
+    "va_numbers": [
+        {
+            "va_number": "38346696574089775201906",
+            "bank": "bca"
+        }
+    ],
+    "transaction_time": "2025-01-07 21:59:57",
+    "transaction_status": "pending",
+    "transaction_id": "51202a18-17c4-4213-8fdc-6cc283c97eb4",
+    "status_message": "midtrans payment notification",
+    "status_code": "201",
+    "signature_key": "24019547989dd130fd3648a3ee5117fc42737d4f656a8b0181cf68fe9c688ffad5b3de3fc1b5863e882b8a101eaf83283760cffd6482241f69ee3c53b7d21e9f",
+    "payment_type": "bank_transfer",
+    "payment_amounts": [],
+    "order_id": "96",
+    "merchant_id": "G632938346",
+    "gross_amount": "23000.00",
+    "fraud_status": "accept",
+    "expiry_time": "2025-01-08 21:59:57",
+    "currency": "IDR"
+}
+Status transaksi diperbarui menjadi: pending untuk ID: 96
+Payload diterima: {
+    "va_numbers": [
+        {
+            "va_number": "38346696574089775201906",
+            "bank": "bca"
+        }
+    ],
+    "transaction_time": "2025-01-07 21:59:57",
+    "transaction_status": "settlement",
+    "transaction_id": "51202a18-17c4-4213-8fdc-6cc283c97eb4",
+    "status_message": "midtrans payment notification",
+    "status_code": "200",
+    "signature_key": "72def421b0bb4c9830ce4d8c36ad7a6424179c6fa900f555f19456edeaaec379c64dbf051a2ab5f4f182d000a738586cc0dd0dff326dd4f655c63fdfa3177177",
+    "settlement_time": "2025-01-07 22:00:10",
+    "payment_type": "bank_transfer",
+    "payment_amounts": [],
+    "order_id": "96",
+    "merchant_id": "G632938346",
+    "gross_amount": "23000.00",
+    "fraud_status": "accept",
+    "expiry_time": "2025-01-08 21:59:57",
+    "currency": "IDR"
+}
+Status transaksi diperbarui menjadi: berhasil untuk ID: 96
+Payload diterima: {
+    "transaction_time": "2023-11-15 18:45:13",
+    "transaction_status": "settlement",
+    "transaction_id": "513f1f01-c9da-474c-9fc9-d5c64364b709",
+    "status_message": "midtrans payment notification",
+    "status_code": "200",
+    "signature_key": "523dcc3d67165cc14628b7163936209ae9c3397d7635e1bbe2bdf58f2e0431ace303b2bd11fb52860811f0499c4e15fbf15234d16896d2fe14d03766e6a06ced",
+    "settlement_time": "2023-11-15 22:45:13",
+    "payment_type": "gopay",
+    "order_id": "payment_notif_test_G632938346_fda73672-ec51-450b-b28e-354b6d8e89bc",
+    "merchant_id": "G632938346",
+    "gross_amount": "105000.00",
+    "fraud_status": "accept",
+    "currency": "IDR"
+}
+Payload diterima: {
+    "transaction_time": "2023-11-15 18:45:13",
+    "transaction_status": "settlement",
+    "transaction_id": "513f1f01-c9da-474c-9fc9-d5c64364b709",
+    "status_message": "midtrans payment notification",
+    "status_code": "200",
+    "signature_key": "53b575e7085e4a04ca59739bc81c998491c1da0124130b5f3ce4e7a9cc8bad7f45e5a77b2bed8e642e376d138739dd92053b2b5582dc51be1a6dfb73f5fd2980",
+    "settlement_time": "2023-11-15 22:45:13",
+    "payment_type": "gopay",
+    "order_id": "payment_notif_test_G632938346_975d3e92-0bd1-4a36-9ba7-105a66b80b7c",
+    "merchant_id": "G632938346",
+    "gross_amount": "105000.00",
+    "fraud_status": "accept",
+    "currency": "IDR"
+}
+Status transaksi diperbarui menjadi: berhasil untuk ID: payment_notif_test_G632938346_975d3e92-0bd1-4a36-9ba7-105a66b80b7c
+Status transaksi diperbarui menjadi: berhasil untuk ID: payment_notif_test_G632938346_fda73672-ec51-450b-b28e-354b6d8e89bc
+Payload diterima: {
+    "va_numbers": [
+        {
+            "va_number": "38346458111668225980702",
+            "bank": "bca"
+        }
+    ],
+    "transaction_time": "2025-01-08 15:46:07",
+    "transaction_status": "pending",
+    "transaction_id": "5e88a291-bde9-44c4-9b67-962f44bb7ed8",
+    "status_message": "midtrans payment notification",
+    "status_code": "201",
+    "signature_key": "2658aecafcbe833d5ce649debaf30e33c3e48157979bcd71f04298adfbd44cf26db9bc3826b30c85953fece2565bea680fe882d0e61bde8d7ba3f80844759743",
+    "payment_type": "bank_transfer",
+    "payment_amounts": [],
+    "order_id": "97",
+    "merchant_id": "G632938346",
+    "gross_amount": "10000.00",
+    "fraud_status": "accept",
+    "expiry_time": "2025-01-09 15:46:07",
+    "currency": "IDR"
+}
+Status transaksi diperbarui menjadi: pending untuk ID: 97
+Payload diterima: {
+    "va_numbers": [
+        {
+            "va_number": "38346458111668225980702",
+            "bank": "bca"
+        }
+    ],
+    "transaction_time": "2025-01-08 15:46:07",
+    "transaction_status": "settlement",
+    "transaction_id": "5e88a291-bde9-44c4-9b67-962f44bb7ed8",
+    "status_message": "midtrans payment notification",
+    "status_code": "200",
+    "signature_key": "7000b8123194e93dbc1193a1a1d9dba52b2ee4b24d7abeacbdee24dd13cf2eabe385bacadf8a3afe98b85830d158a47c9b88cc178a89a29b24bb1a3d3d5634bf",
+    "settlement_time": "2025-01-08 15:46:16",
+    "payment_type": "bank_transfer",
+    "payment_amounts": [],
+    "order_id": "97",
+    "merchant_id": "G632938346",
+    "gross_amount": "10000.00",
+    "fraud_status": "accept",
+    "expiry_time": "2025-01-09 15:46:07",
+    "currency": "IDR"
+}
+Status transaksi diperbarui menjadi: berhasil untuk ID: 97
+Gagal mengirim email ke cyati948@gmail.com: SMTP Error: Could not authenticate.

@@ -1,0 +1,244 @@
+body{
+    background-color: #b0e0e6; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* dokumentsi */
+#carouselExampleCaptions {
+    max-width: 1200px; 
+    margin: 70px auto; 
+    border-radius: 15px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+
+}
+
+.carousel-item img {
+    height: 550px;
+    object-fit: cover; 
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    #carouselExampleCaptions {
+      margin: 10px;
+    }
+  
+}
+
+/* Tentang Kami */
+#con-tentang {
+    display: flex; 
+    gap: 20px;
+    align-items: center; 
+}
+
+/* Tambahan styling untuk elemen lain */
+#con-tentang .item {
+    flex: 1; /* Membuat elemen di dalam #con-tentang berbagi ruang secara merata */
+    padding: 10px; /* Menambahkan ruang dalam elemen */
+    border-radius: 10px; /* Memberikan sudut membulat pada elemen */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Bayangan halus untuk elemen */
+    transition: transform 0.3s ease; /* Efek transisi saat elemen disorot */
+}
+
+#con-tentang .item:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+section #fotoTentang{
+    max-width: 500px;
+    height: auto;
+    border: 3px solid white;
+    border-radius: 5px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.721);
+    float: right;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+section #judulTentang{
+    margin-bottom: 10px;
+    color: navy;
+    font-weight:bold;
+}
+section #keteranganTentang {
+    text-align: justify; 
+    color: #555;
+}
+@media (max-width: 768px) {
+    #con-tentang {
+      flex-direction: column; /* Tumpuk elemen secara vertikal */
+      text-align: center; /* Pusatkan teks */
+    }
+  
+}
+
+
+/* cara donasi */
+section #judulCara{
+    font-weight: bold;
+    color: navy;
+}
+section #ket-cara{
+    color: #555;
+}
+
+section #con-cara{
+    background-color: #add8e6; 
+    padding: 40px; 
+    border-radius: 15px; 
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.300);
+}
+
+section #con-isi-cara{
+    background-color: #f8f9fa; 
+    border-radius: 15px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* campaign */
+/* Styling untuk kontainer Carousel */
+section #camp-con-luar {
+    background-color: #add8e6;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+    overflow: hidden; /* Menyembunyikan overflow yang tidak diinginkan */
+}
+
+/* Judul */
+section #judul-cmp {
+    color: navy;
+    text-align: center;
+}
+
+/* Keterangan */
+section #ket-cmp {
+    color: #555;
+    text-align: justify;
+}
+
+/* Styling untuk card */
+section #card-cmp {
+    background-color: #f8f9fa;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Target text styling */
+section #target-cmp {
+    color: #555;
+    margin-top: 5px;
+}
+
+/* Tombol untuk campaign */
+
+
+/* Carousel styling untuk horizontal scroll */
+#campaignCarousel .carousel-inner {
+    display: flex; /* Menyusun item carousel secara horizontal */
+    overflow-x: auto; /* Memungkinkan horizontal scroll */
+    gap: 20px; /* Jarak antar card */
+    scroll-snap-type: x mandatory; /* Efek snap saat scrolling */
+}
+
+.carousel-item {
+    flex: 0 0 auto; /* Mencegah item melebar */
+    scroll-snap-align: start; /* Membuat snap ke posisi awal */
+}
+
+/* Untuk membuat 3 card per tampilan */
+.carousel-item .row {
+    display: flex;
+    justify-content: space-between; /* Memberikan jarak antar card */
+}
+
+.carousel-item .col-md-4 {
+    flex: 0 0 32%; /* Setiap card mengambil 32% dari lebar row */
+}
+
+/* Styling gambar di card */
+.card-img-top {
+    object-fit: cover;
+    height: 200px; /* Mengatur tinggi gambar di dalam card */
+}
+
+/* Hover effect pada card */
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+/* Styling tombol next dan previous di carousel */
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%; /* Ukuran tombol */
+    border-radius: 50%; /* Membuat tombol bulat */
+}
+
+/* Ikon tombol next dan previous */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(1); /* Mengubah warna ikon menjadi putih */
+}
+
+/* Responsif: Lebar card pada perangkat besar (desktop) */
+@media (max-width: 991px) {
+    .carousel-item .col-md-4 {
+        flex: 0 0 48%; /* Menampilkan 2 card per row pada tablet */
+    }
+}
+
+/* Responsif: Lebar card pada perangkat mobile (kolom kecil) */
+@media (max-width: 767px) {
+    .carousel-item .col-md-4 {
+        flex: 0 0 100%; /* Menampilkan 1 card per row pada perangkat mobile */
+    }
+
+    /* Tombol meluas hingga memenuhi lebar layar */
+    #btn-cmp1, #btn-cmp2 {
+        width: 100%;
+    }
+}
+/* kontak */
+section #con-luar-kontak{
+    background-color: #f8f9fa; 
+    padding: 40px; 
+    border-radius: 15px; 
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+}
+.map iframe{
+    width: 100%;
+    height: 350px;
+    border-radius: 15px;
+}
+.map h5{
+    color: navy; 
+    padding : 10px; 
+    text-align:center;
+}
+.map p{
+    font-size: 18px; 
+    color: #555;
+    text-align:center;
+}
+/* footer */
+footer{
+    background-color: #add8e6; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.300); 
+    color: navy;
+}
+
+.anim-section {
+    opacity: 0;
+    transition: opacity 1s;
+}
+.anim-section.visible {
+    opacity: 1;
+}
