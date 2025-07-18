@@ -5,9 +5,9 @@ namespace Midtrans;
 require_once dirname(__FILE__) . '/../../Midtrans.php'; // Pastikan path ini benar
 
 // Konfigurasi Midtrans
-Config::$serverKey = 'SB-Mid-server-5QG9o1uGq4o-SH1MqaOkYY13'; // Pastikan ini kunci yang benar
+Config::$serverKey = ''; // Pastikan ini kunci yang benar
 Config::$isProduction = false; // Ubah ke true untuk produksi
-Config::$clientKey = 'SB-Mid-client-IKMtvZ_Ay5357iJZ'; // Pastikan ini kunci yang benar
+Config::$clientKey = ''; // Pastikan ini kunci yang benar
 
 Config::$isSanitized = true;
 Config::$is3ds = true;
