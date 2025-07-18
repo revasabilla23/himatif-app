@@ -6,9 +6,9 @@ require_once dirname(__FILE__) . '/../../Midtrans.php';
 
 // Set Server Key and Client Key from Midtrans
 // Server Key should be kept secret and never exposed on client side
-Config::$serverKey = 'SB-Mid-server-7NcW4z8ydCiA_WHwkgcRzq5S'; // Ensure this is the correct key for Sandbox or Production
+Config::$serverKey = ''; // Ensure this is the correct key for Sandbox or Production
 Config::$isProduction = false; // Change to true for production environment
-Config::$clientKey = 'SB-Mid-client-Ic4AOrBpiCtethWu'; // Make sure this is correct for the environment you're using
+Config::$clientKey = ''; // Make sure this is correct for the environment you're using
 
 // Optional: Enable debugging mode and 3DS (for credit card transactions)
 Config::$isSanitized = Config::$is3ds = true;
