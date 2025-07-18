@@ -99,7 +99,7 @@ printExampleWarningMessage();
         <button id="pay-button">Pay!</button>
 
         <!-- Script untuk Snap Midtrans -->
-        <script src="https://app.sandbox.midtrans.com/snap/snap.js" data-client-key="SB-Mid-client-Ic4AOrBpiCtethWu"></script>
+        <script src="https://app.sandbox.midtrans.com/snap/snap.js" data-client-key=""></script>
 
         <script type="text/javascript">
             var payButton = document.getElementById('pay-button');
